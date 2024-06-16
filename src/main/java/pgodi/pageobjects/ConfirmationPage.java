@@ -32,7 +32,7 @@ public class ConfirmationPage extends AbstractComponent{
 		By labelText = By.cssSelector("label[class='ng-star-inserted']");
 
 		
-			
+		//some comment	
 		public String getOrderId() {
 			waitForElementToAppear(labelText);
 			return orderID.getText().replace("|","").trim();
