@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 6, Errors: 0, Skipped: 4, Time elapsed: 5.007 s <<< FAILURE! - in TestSuite
+launchApplication(pgodi.tests.ErrorValidation)  Time elapsed: 3.323 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+launchApplication(pgodi.tests.SubmitOrderTest)  Time elapsed: 3.325 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+tearDown(pgodi.tests.ErrorValidation)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+tearDown(pgodi.tests.SubmitOrderTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+launchApplication(pgodi.tests.SubmitOrderTest)  Time elapsed: 0.155 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+tearDown(pgodi.tests.SubmitOrderTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
